@@ -1,0 +1,21 @@
+(() => {
+    const findText = (text) => {
+        return text.match(new RegExp(/\bhub\b/)) || text.match(new RegExp(/\bclub\b/))
+    }
+
+    if (!document.getElementById('askApp')) {
+        const ask = document.createElement('div')
+        ask.setAttribute('id', 'askApp')
+
+        const askScript = document.createElement('script')
+
+        if(findText(window.location.href)) {
+            askScript.setAttribute('src', 'https://static.hotmart.com/ask/widget.js')
+        } else {
+            askScript.setAttribute('src', 'https://static.hotmart.com/ask/bundle.js')
+        }
+
+        document.body.appendChild(ask)
+        document.body.appendChild(askScript)
+    }
+})();
