@@ -1,0 +1,106 @@
+//para transforam ponto em virgula ex n1.toFixed(2).replace('.',',')
+//para transformar em números monetarios ex n1.toLocaleString('pt-BR',{style: 'currency',currency:'BRL'})
+---------------------------------------------------------------------
+operadores aritmeticos
++ soma
+- diminuir
+* multiplicar
+/ divisão real com virgula ex 2.5
+% resto da divisão
+** ao quadrado
+----------------------------------------------------------------------
+
+Precedentes na hora de calcular
+
+1- ()
+2- **
+3- * / % da esquerda pra direita
+4- + -
+---------------------------------------------------------------------
+Operadores relacionais
+
+> maior
+< menor
+>=maior ou igual
+<=menor ou igual
+==igual
+!=nao igual
+
+--------------------------------------------------------------------
+
+Operadores de identidade
+
+5== 5 = true
+5== '5' = true
+5=== '5' = testa se é identico é falso
+
+---------------------------------------------------------------------
+
+Operadores lógicos
+! negação 
+&&conjunção (e logico)
+||disjunção (ou logico)
+
+ordem de resolução 
+(nao) (e )depois (ou)
+
+---------------------------------------------------------------------
+
+ordem de precedencia
+ ()**/
+><>=
+!
+&&
+||
+
+---------------------------------------------------------------------
+Ternario
+
+?:
+=====================================================================
+
+DOM - Document object model
+
+Arvore DOM
+
+        location
+-window document
+        history
+ 
+
+    head
+html 
+    body
+
+----------------------------------------------------------------------
+
+Eventos do mouse (comandos)
+mouseenter
+mousemove
+mousedown
+mouseup
+click
+mouseout
+outros eventos 
+proucura events lists event reference
+
+========================================================================
+
+DOM Document object model
+
+tecnicas para acessar o DOM
+
+-TagName
+-ID
+-Name
+-ClassName
+-querySelector
+
+EVENTOS
+
+=========================================================================
+CONDIÇÕES
+if true
+else false
+
+

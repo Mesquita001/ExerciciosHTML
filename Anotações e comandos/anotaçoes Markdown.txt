@@ -1,0 +1,26 @@
+Negrito ** ou _ _
+Italico *
+Riscar ~~
+Título #
+Título n2 ##
+Título n3 ###
+
+__*Podemos Misturar*__
+
+1. Teste 1
+  2. Teste 2
+3. Teste 3
+
+Lista demarcada
+* Teste
+* Teste
+* Teste
+
+Lista de tarefas
+- [x] Cebola
+- [ ] abobora
+- [ ] beterraba
+- [ ] amendoim
+
+
+
