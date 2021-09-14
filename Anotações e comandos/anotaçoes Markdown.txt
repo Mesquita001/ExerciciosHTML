@@ -22,5 +22,26 @@ Lista de tarefas
 - [ ] beterraba
 - [ ] amendoim
 
+Tabelas
+
+Num | Name | Nota
+---|---|---|
+1 | Andre | 8.6
+
+Comandos
+
+como colocar comandos destacatos 'cocument.getElementById()'
+
+Olha meu programa
+```
+num = int(input('Digite m valor')
+if num % 2==0:
+	print('Ovalor)
+
+emojis
+
+é com :
+
+
 
 
